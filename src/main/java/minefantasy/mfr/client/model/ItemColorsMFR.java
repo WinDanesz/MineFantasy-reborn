@@ -18,7 +18,7 @@ public class ItemColorsMFR {
 
 	public static void init() {
 		ItemColors itemColors = Minecraft.getMinecraft().getItemColors();
-
+		woops an error
 		// TODO just an example, should be removed later
 		itemColors.registerItemColorHandler((stack, tintIndex) -> tintIndex == 0 ? 0xEF5757 : 0xFF00FF, ToolListMFR.STONE_SWORD);
 	}
